@@ -828,3 +828,44 @@ section{
         padding: 7rem 3rem;
     }
 }
+
+
+
+@media screen and (max-width : 400px){
+    body{
+        font-size: 0.9rem;
+    }
+
+    .main-title {
+        h2 {
+          font-size: 3rem;
+          span {
+            font-size: 3rem;
+          }
+        }
+    }
+    .contact-content-container {
+        .left-contact {
+            h4 {
+                font-size: 1.8rem;
+            }
+            .contact-icon {
+                align-items: center;
+                justify-content: center;
+            }
+        }    
+        .right-contact {
+            .input-control{
+                input, textarea{
+                    padding: .5rem .8rem;
+                }
+            }
+        }
+    }
+    .controls {
+        .control {
+            height: 30px;
+            width: 40px;
+        }
+    }
+}
